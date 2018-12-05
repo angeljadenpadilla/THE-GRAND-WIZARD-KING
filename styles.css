@@ -1,0 +1,74 @@
+h1 {
+    color:red;
+    font-size:50px;
+}
+h2 {
+    color:blue;
+    font-size:50px;
+}
+h3 {
+    color:#ffa500;
+    font-size:50px;
+    text-align: center;
+}
+h4 {
+    color:skyblue;
+    font-size:50px;
+    text-align: center;
+}
+body {
+    background-image: url("http://southparkstudios.mtvnimages.com/shared/locations/south-park-sunshine.png");
+        height: 50%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+}
+.spell-1{
+    display:flex;
+    justify-content:center;
+}
+.spell-2{
+    display:flex;
+    justify-content:center;
+}
+.spell-3{
+    display:flex;
+    justify-content:center;
+}
+.cartman{
+    width:200px;
+    height: 200px;
+    border: solid orange ; 
+}
+.hands {
+    width:200px;
+    height: 200px;
+    border: solid purple ; 
+}
+.water {
+    width:200px;
+    height: 200px;
+    border: solid grey ; 
+}
+.fire{
+    width:200px;
+    height:200px;
+    border: solid #800080 ; 
+}
+.lightning{
+    width:200px;
+    height: 200px;
+    border: solid #0000ff; 
+}
+.kenny {
+    width:400px;
+    border: solid #ff0000  ; 
+}
+.wand {
+    width:200px;
+    height:200px;
+    border: solid #ff0000  ; 
+}
+.header{
+    text-align: center;
+}
