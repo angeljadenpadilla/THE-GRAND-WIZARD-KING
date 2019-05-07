@@ -4044,6 +4044,16 @@ h4 {
     font-size:50px;
     text-align: center;
 }
+h5 {
+    color:green;
+    font-size:50px;
+    text-align: center;
+}
+h6 {
+    color:purple;
+    font-size:50px;
+    text-align: center;
+}
 body {
     background-image: url("http://southparkstudios.mtvnimages.com/shared/locations/south-park-sunshine.png");
         height: 50%; 
@@ -4063,6 +4073,18 @@ body {
     display:flex;
     justify-content:center;
 }
+.spell-4{
+    display:flex;
+    justify-content:center;
+} 
+.spell-5{
+    display:flex;
+    justify-content:center;
+} 
+.spell-6 {
+    display:flex;
+    justify-content:center;
+} 
 .cartman{
     width:200px;
     height: 200px;
@@ -4097,6 +4119,36 @@ body {
     height:200px;
     border: solid #ff0000  ; 
 }
+.hands2 {
+    width:200px;
+    height:200px;
+    border: solid #ff0000; 
+}
+.smoke {
+    width:200px;
+    height:200px;
+    border: solid #808080; 
+}
+.hands3 {
+    width:200px;
+    height:200px;
+    border: solid #ffa500; 
+}
+.hands4 {
+    width:200px;
+    height:200px;
+    border: solid #1e3f5a; 
+}
+.wind {
+    width:200px;
+    height:200px;
+    border: solid #ffff00 ; 
+}
+.clone {
+    width:200px;
+    height:200px;
+    border: solid #801818; 
+}
 .header{
     text-align: center;
 }</style></head>
@@ -4117,7 +4169,21 @@ body {
         <h4>WATER</h4>
         <div class="spell-3">
             <img class="hands" src="https://www.magicbymio.com/wp-content/uploads/2014/10/magichands.jpg">
-            <img class="water" src="https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2016/63-scientistsdi.jpg">
+            <img class="water" src="https://3c1703fe8d.site.internapcdn.net/newman/csz/news/800/2016/63-scientistsdi.jpg"> </div>
+        <h5>SMOKE</h5>
+        <div class="spell-4">
+            <img class="hands2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScKZUzJlfOS9Df6AEPEKO-tOzRt2p4EkR8gxKncIQlvLoq80K73A">
+            <img class="smoke" src="https://www.nfpa.org/-/media/Images/NFPA-Journal/2018/March-April-2018/Heds/UL-Smoke-Alarms-feature-hed0318.ashx?h=360&amp;la=en&amp;w=775&amp;hash=533F82D04813EA38ED506B0371FCD865FC786001">
+        </div>
+        <h6>SUMMON CLONE</h6>
+        <div class="spell-5">
+            <img class="hands3" src="https://i.pinimg.com/originals/bd/19/a5/bd19a58a23bd0c312225dc15dadfe071.jpg">
+            <img class="clone" src="https://m.media-amazon.com/images/M/MV5BMzVlOGZlMzAtNTQyMC00ZDc5LWE2OWEtYTQzNTZiZmU2ZDU2XkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SY1000_CR0,0,1764,1000_AL_.jpg">
+        </div>
+        <h6>WIND</h6>
+        <div class="spell-6">
+             <img class="hands4" src="https://images.immediate.co.uk/volatile/sites/4/2018/07/GettyImages-77937874-9ed4b0b.jpg?quality=45&amp;resize=960,413">
+             <img class="wind" src="https://i.pinimg.com/originals/9d/ae/3c/9dae3cdb72e61820d8787eed35898edb.jpg">
         </div>
     
 
@@ -4132,6 +4198,15 @@ $(".wand").click(function() {
 $(".hands").click(function() {
     $(".water").toggle();
 });
-   
+$(".hands2").click(function() {
+    $(".smoke").toggle();
+});
+$(".hands3").click(function() {
+    $(".clone").slideToggle();
+});
+$(".hands4").click(function() {
+    $(".wind").fadeToggle();
+});
+
 
   </script></body></html>
